@@ -13,7 +13,3 @@ class Solution(object):
             else:
                 finalInt += dictMap[romanString[key]]
         return finalInt
-
-
-sol = Solution()
-print(sol.romanToInt('XCVII'))
