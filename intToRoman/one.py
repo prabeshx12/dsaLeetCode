@@ -7,8 +7,10 @@ class Solution(object):
             1: 'I',
         }
         romanString = ''
+
         for value, symbol in hashMap.items():
             while integer >= value:
                 romanString += symbol
                 integer -= value
+                
         return romanString

@@ -2,6 +2,7 @@ class Solution(object):
     def checkAnagram(self, string1, string2):
         dictOne = {}
         dictTwo = {}
+        
         if len(string1) != len(string2):
             return False
         
