@@ -1,12 +1,12 @@
 class Solution(object):
     def maxProfit(self, prices):
-        minP = prices[0]; maxP = 0
+        minPrice = prices[0]; maxProf = 0
 
         for i in range(1, len(prices)):
-            if prices[i] - minP > maxP:
-                maxP = prices[i] - minP
+            if prices[i] - minPrice > maxProf:
+                maxProf = prices[i] - minPrice
             else:
-                if prices[i] < minP:
-                    minP = prices[i]
+                if prices[i] < minPrice:
+                    minPrice = prices[i]
                     
-        return maxP
+        return maxProf
