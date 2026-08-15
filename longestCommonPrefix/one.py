@@ -12,4 +12,3 @@ class Solution(object):
                 return minStr[:i]
             
         return ""
-            
