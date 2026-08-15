@@ -10,5 +10,6 @@ class Solution(object):
                     break
             else:
                 return minStr[:i]
+            
         return ""
             
