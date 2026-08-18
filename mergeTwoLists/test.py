@@ -11,21 +11,22 @@ node3 = ListNode(30)
 node1.next = node2
 node2.next = node3
 
-head = node1
-current = head
+list1 = node1
 
-node4 = ListNode(25)
+# for adding 5, 25 and 40 we have:
+node4 = ListNode(5)
+node5 = ListNode(25)
+node6 = ListNode(40)
 
-# say I want to insert 25 then;
-while current is not None:
-    if current.next.val >= node4.val >= current.val:
-        node4.next = current.next
-        current.next = node4
-        break
-    
-    current = current.next
+node4.next = node1 # for first node
+list1 = node4
 
-current = head
+node5.next = node3 # for second node
+node2.next = node5
+
+node3.next = node6 # for third node
+
+current = list1
 
 while current is not None:
     print(current.val)
