@@ -14,7 +14,3 @@ class Solution(object):
             columnNumber //= 26
 
         return title
-
-
-sol = Solution()
-print(sol.convertToTitle(2601))
