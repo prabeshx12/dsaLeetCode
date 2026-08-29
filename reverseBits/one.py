@@ -12,7 +12,7 @@ class Solution(object):
             rem = n % 2
             binList.append(rem)
             n //= 2
-
+        
         pad_length = 32 - len(binList)
         pad_list = pad_length * [0]
         binList = binList + pad_list
