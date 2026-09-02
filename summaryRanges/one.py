@@ -9,6 +9,9 @@ class Solution(object):
         elements as slow didn't reach the len(nums) - 1 value for the final range of values. That is the
         append for that final range.
         """
+        if len(nums) == 0:
+            return []
+        
         slow = start = 0
         range_list = []
         final_list = []
@@ -27,4 +30,4 @@ class Solution(object):
             else:
                 final_list.append(str(a) + "->" + str(b))
 
-        return range_list
+        return final_list
