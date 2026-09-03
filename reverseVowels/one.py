@@ -25,8 +25,3 @@ class Solution(object):
                 back -= 1
 
         return ''.join(string_list)
-
-
-sol = Solution()
-print(sol.reverseVowels('leetcode'))
-        
