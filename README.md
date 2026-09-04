@@ -1,1 +1,1 @@
-# This is a simple README file of the dsaLeetCode questions solution.
+# This is a simple README file of the dsaLeetCode questions solution
