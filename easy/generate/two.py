@@ -1,5 +1,9 @@
 class Solution():
     def generate(self, numRows):
+        """
+        The logic is to append the list of 1s first in the row and then in the middle add the previous row 
+        columns starting from the 1st to the 2nd last, hence the range (1, i).
+        """
         triangle = []
 
         for i in range(numRows):
