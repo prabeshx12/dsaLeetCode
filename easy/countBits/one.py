@@ -5,6 +5,7 @@ class Solution(object):
         Brian Kernighan's Algorithm.
         """
         list_bin = [0]
+        
         for i in range(1, n + 1):
             count = 0
 
