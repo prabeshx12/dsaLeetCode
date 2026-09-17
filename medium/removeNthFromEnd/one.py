@@ -12,7 +12,7 @@ class Solution(object):
         Else use previous to store the current and move the current to current.next. 
         At last strip the connection as prev.next = current.next and current.next = None.
         """
-        curr1 = curr2 = curr3 = head
+        curr1 = curr2 = head
         prev = curr2
         length = 0
 
@@ -23,7 +23,7 @@ class Solution(object):
         index = length - n
 
         if index == 0:
-            return curr3.next
+            return head.next
 
         while index != 0:
             prev = curr2
@@ -33,4 +33,4 @@ class Solution(object):
         prev.next = curr2.next
         curr2.next = None
 
-        return curr3
+        return head
