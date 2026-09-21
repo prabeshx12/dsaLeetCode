@@ -36,3 +36,30 @@ class Queue:
         self.lst[self.front] = None
         return value
 
+    def traverse(self):
+        if self.isEmpty():
+            print("Error: can't traverse, queue is empty.")
+            return
+
+        for i in range(self.front + 1, self.rear + 1):
+            print(self.lst[i], end = " ")
+
+
+queue1 = Queue(4)
+list1 = [10, 20, 30, 40]
+
+print("Display of the queue after enqueuing")
+for num in list1:
+    queue1.enqueue(num)
+
+queue1.traverse()
+
+print("\nDequeued elements")
+for _ in range(2):
+    print(queue1.dequeue())
+
+print("Queue after dequeue")
+queue1.traverse()
+
+print("\nLooking at the front of queue")
+print(queue1.peek())
