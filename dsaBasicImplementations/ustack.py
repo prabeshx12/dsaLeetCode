@@ -28,7 +28,6 @@ class Stack:
         return self.stk[self.top]
         
 
-
 stack1 = Stack(4)
 
 list1 = [1, 2, 4, 3]
