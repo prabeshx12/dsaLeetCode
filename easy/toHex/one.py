@@ -1,8 +1,9 @@
 class Solution(object):
     def toHex(self, num):
         """
-        :type num: int
-        :rtype: str
+        This is only for the positive number hex calculation based on the mapping of the numbers from 10 to 15
+        with a to f and dividing the number and getting remainders add up in the reverse. For negative numbers
+        however this doesn't work.
         """
         hashMap = {}
         result = ''
