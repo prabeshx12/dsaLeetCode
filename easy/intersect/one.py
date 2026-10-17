@@ -22,6 +22,7 @@ class Solution(object):
                     while value != 0:
                         returnList.append(key)
                         value -= 1
+                
                 elif hashMap2[key] < value:
                     while hashMap2[key] != 0:
                         returnList.append(key)
