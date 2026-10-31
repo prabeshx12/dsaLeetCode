@@ -7,9 +7,9 @@ Many problems have more than one solution. `one.py` is usually the first, straig
 ![Python](https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white)
 
 <!-- counts:start -->
-![Total](https://img.shields.io/badge/Solved-81-blue)
+![Total](https://img.shields.io/badge/Solved-82-blue)
 ![Easy](https://img.shields.io/badge/Easy-63-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-18-orange)
+![Medium](https://img.shields.io/badge/Medium-19-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 <!-- counts:end -->
 
