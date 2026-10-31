@@ -8,11 +8,12 @@ class Solution(object):
         finalList = []
         rList = []
 
-
         for string in strs:
             hashMap = {}
+
             for j in string:
                 hashMap[j] = hashMap.get(j, 0) + 1
+            
             returnList.append([string, hashMap])
 
         for _, h1 in returnList:
@@ -21,9 +22,11 @@ class Solution(object):
 
         for h in finalList:
             group = []
+
             for stri, h2 in returnList:
                 if h == h2:
                     group.append(stri)
+            
             rList.append(group)
 
         return rList

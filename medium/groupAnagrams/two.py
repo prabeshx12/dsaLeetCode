@@ -7,6 +7,7 @@ class Solution(object):
 
         for word in strs:
             key = "".join(sorted(word))
+            
             if key in hashMap:
                 hashMap[key].append(word)
             else:
