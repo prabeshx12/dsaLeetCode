@@ -1,9 +1,9 @@
 # Tree Traversal Methods and their implementation
 class Node:
-    def __init__(self, value, left=None, right=None):
+    def __init__(self, value=0, left=None, right=None):
         self.value = value
-        self.left = None
-        self.right = None
+        self.left = left
+        self.right = right
 
 
 # Simple Tree
