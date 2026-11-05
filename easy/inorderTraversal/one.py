@@ -21,8 +21,7 @@ class Solution(object):
                 node = node.left
 
             node = stack.pop()
-            print(node.val)
-            order.append(node)
+            order.append(node.val)
             node = node.right
 
         return order
